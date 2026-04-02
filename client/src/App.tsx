@@ -10,6 +10,7 @@ import Community from "./pages/Community";
 import View from "./pages/View";
 import Auth from "./pages/auth/Auth";
 import Settings from "./pages/auth/Settings";
+import Loading from "./pages/Loading";
 
 const App = () => {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/view/:projectId" element={<View />} />
         <Route path="/auth/:pathname" element={<Auth />} />
         <Route path="/account/settings" element={<Settings />} />
+        <Route path="/loading" element={<Loading />} />
       </Routes>
     </div>
   );

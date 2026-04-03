@@ -44,7 +44,7 @@ const stripeWebhook = async (req: Request, res: Response) => {
 
           // Add the credits to the user data
           await prisma.user.update({
-            where: { id: transactionId },
+            where: { id: transaction.userId },
             data: { credits: transaction.credits },
           });
         }

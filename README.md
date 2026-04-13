@@ -76,6 +76,7 @@ Clone the repository and navigate to project folder to install dependencies.
 ```
 
 **1. Server Setup (Backend)**
+
 Navigate to the server directory and install dependencies:
 ```bash
 cd server
@@ -114,6 +115,7 @@ STRIPE_WEBHOOK_SECRET="Enter your Stripe webhook secret"
 ```
 
 **2. Client Setup (Frontend)**
+
 Open a new terminal window, navigate to the client directory, and install dependencies:
 ```bash
 cd client
@@ -127,6 +129,7 @@ VITE_BASEURL=http://localhost:3000
 ```
 
 **3. Run the Application**
+
 Start the backend server:
 ```bash
 cd server
